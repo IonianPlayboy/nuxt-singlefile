@@ -1,5 +1,7 @@
-import MyModule from "../../../src/module";
+import nuxtSingleFileModule from "../../../src/module";
 
 export default defineNuxtConfig({
-	modules: [MyModule],
+	modules: [nuxtSingleFileModule],
+	// @ts-ignore
+	nuxtSingleFile: {},
 });
